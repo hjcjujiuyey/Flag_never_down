@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import indexWrap from '../components/indexWrap'
+import detailWrap from '../components/detailWrap'
 
 Vue.use(VueRouter)
 
@@ -9,6 +10,10 @@ Vue.use(VueRouter)
     path: '/',
     name: '/',
     component: indexWrap
+  },{
+    path: '/detailWrap',
+    name: '/detailWrap',
+    component: detailWrap
   },
 ]
 

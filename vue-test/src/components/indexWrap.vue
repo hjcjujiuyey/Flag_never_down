@@ -38,6 +38,9 @@ export default {
 		}
   },
   components:{footer_bar},
+  methods:{
+
+  }
 }
 </script>
 

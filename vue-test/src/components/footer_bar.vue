@@ -23,6 +23,10 @@ export default {
 		onChange(_index) {
 			// console.log( _index );
 			// 这里用switch语句跳转路由
+			
+			// if(_index === 1){
+			// 	this.$router.push('/detailWrap');
+			// }
 		},
 	}
 
