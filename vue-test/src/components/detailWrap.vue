@@ -1,16 +1,6 @@
 <template>
   <div >
-		<!-- 顶部标签页 -->
-		<div>
-			<van-nav-bar
-				title="标题"
-				left-text="返回"
-				right-text="修改"
-				left-arrow
-				@click-left="onClickLeft"
-				@click-right="onClickRight"
-			/>
-		</div>
+		<h2>Flag详细信息</h2>
 
 		<!-- 详情概述 -->
 		<div class="content">
@@ -48,6 +38,9 @@
 			<van-button type="warning"  @click="failureBtn">失败的惩罚</van-button>
 		</div>
 
+		<!-- footer组件 -->
+		<footer_bar></footer_bar>  
+
   </div>
 </template>
 
@@ -69,6 +62,7 @@ export default {
 	methods:{
 		// 返回首页按钮
 		onClickLeft(){
+			// 这里有一个bug是返回首页，footer的跳转
 			this.$router.push('/')
 		},
 		// 修改按钮
