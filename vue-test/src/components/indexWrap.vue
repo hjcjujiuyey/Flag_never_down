@@ -22,22 +22,22 @@
     </div>
 
     <!-- footer组件 -->
-    <van-tabbar v-model="active">
-      <van-tabbar-item icon="wap-home-o">首页</van-tabbar-item>
-      <van-tabbar-item icon="search">详情</van-tabbar-item>
-      <van-tabbar-item icon="add-o">生成</van-tabbar-item>
-      <van-tabbar-item icon="coupon-o">统计</van-tabbar-item>
-    </van-tabbar>
+    <footer_bar></footer_bar>  
 
   </div>
 </template>
 
 <script>
+import footer_bar from './footer_bar'
+
 export default {
   name: 'indexWrap',
-  props: {
-    active:0,
-  }
+  data(){
+		return{
+			active:''
+		}
+  },
+  components:{footer_bar},
 }
 </script>
 
