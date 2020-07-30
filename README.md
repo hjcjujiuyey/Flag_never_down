@@ -5,9 +5,12 @@
 
 框架vue 
 vue-cli4 vue-router
+组件 vant
 服务端nodejs
 数据库mongoDB
 
 
 在中间件midlleware中间件安装node express
 npm i express -S
+
+在项目内引入vant组件库
