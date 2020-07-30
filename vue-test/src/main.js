@@ -3,8 +3,8 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
-import { Button } from 'vant';
-Vue.use(Button);
+import { Button,Cell, CellGroup,Tag,Tabbar, TabbarItem  } from 'vant';
+Vue.use(Button).use(Cell).use(CellGroup).use(Tag).use(Tabbar).use(TabbarItem);
 
 Vue.config.productionTip = false
 
