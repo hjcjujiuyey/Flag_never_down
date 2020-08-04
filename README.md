@@ -14,3 +14,6 @@ vue-cli4 vue-router
 npm i express -S
 
 在项目内引入vant组件库
+***
+
+进度：完成四个模块，footer切换功能完成
