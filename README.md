@@ -1,19 +1,8 @@
 # Flag_nerve_down
-一个立flag的webApp
+一个立flag的WEb项目
 
 技术栈 
+web文件夹对应前端代码
 
-框架vue 
-vue-cli4 vue-router
-组件 vant
-服务端nodejs
-数据库mongoDB
+server文件夹对应后端文件夹
 
-
-在中间件midlleware中间件安装node express
-npm i express -S
-
-在项目内引入vant组件库
-***
-
-进度：完成四个模块，footer切换功能完成
